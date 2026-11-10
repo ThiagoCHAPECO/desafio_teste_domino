@@ -1,0 +1,100 @@
+TAP version 13
+# Subtest: CT01 - conjunto duplo seis tem 28 pecas diferentes
+ok 1 - CT01 - conjunto duplo seis tem 28 pecas diferentes
+  ---
+  duration_ms: 2.7198
+  type: 'test'
+  ...
+# Subtest: CT02 - distribui sete pecas por jogador e quatorze no monte
+ok 2 - CT02 - distribui sete pecas por jogador e quatorze no monte
+  ---
+  duration_ms: 0.5648
+  type: 'test'
+  ...
+# Subtest: CT03 - baralho invalido ou repetido e rejeitado
+ok 3 - CT03 - baralho invalido ou repetido e rejeitado
+  ---
+  duration_ms: 0.8039
+  type: 'test'
+  ...
+# Subtest: CT04 - primeira jogada reduz mao, cria mesa e troca turno
+ok 4 - CT04 - primeira jogada reduz mao, cria mesa e troca turno
+  ---
+  duration_ms: 0.5476
+  type: 'test'
+  ...
+# Subtest: CT05 - inverte peca ao encaixar na ponta esquerda
+ok 5 - CT05 - inverte peca ao encaixar na ponta esquerda
+  ---
+  duration_ms: 0.3794
+  type: 'test'
+  ...
+# Subtest: CT06 - rejeita peca sem encaixe sem alterar o estado
+ok 6 - CT06 - rejeita peca sem encaixe sem alterar o estado
+  ---
+  duration_ms: 1.2927
+  type: 'test'
+  ...
+# Subtest: CT07 - rejeita turno, indice e lado invalidos
+ok 7 - CT07 - rejeita turno, indice e lado invalidos
+  ---
+  duration_ms: 0.408
+  type: 'test'
+  ...
+# Subtest: CT08 - nao compra nem passa quando existe jogada
+ok 8 - CT08 - nao compra nem passa quando existe jogada
+  ---
+  duration_ms: 0.4558
+  type: 'test'
+  ...
+# Subtest: CT09 - compra obrigatoria sem encaixe mantem turno e conserva pecas
+ok 9 - CT09 - compra obrigatoria sem encaixe mantem turno e conserva pecas
+  ---
+  duration_ms: 0.408
+  type: 'test'
+  ...
+# Subtest: CT10 - partidas deterministicas conservam as 28 pecas e encerram
+ok 10 - CT10 - partidas deterministicas conservam as 28 pecas e encerram
+  ---
+  duration_ms: 10.4729
+  type: 'test'
+  ...
+# Subtest: CT11 - esvaziar a mao vence a partida
+ok 11 - CT11 - esvaziar a mao vence a partida
+  ---
+  duration_ms: 0.7621
+  type: 'test'
+  ...
+# Subtest: CT12 - bloqueio compara soma dos pontos nas maos restantes
+ok 12 - CT12 - bloqueio compara soma dos pontos nas maos restantes
+  ---
+  duration_ms: 19.9242
+  type: 'test'
+  ...
+# Subtest: CT13 - copia baralho e retorna consultas defensivas
+ok 13 - CT13 - copia baralho e retorna consultas defensivas
+  ---
+  duration_ms: 0.4197
+  type: 'test'
+  ...
+1..13
+# tests 13
+# suites 0
+# pass 13
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 190.2665
+# start of coverage report
+# ----------------------------------------------------------------
+# file            | line % | branch % | funcs % | uncovered lines
+# ----------------------------------------------------------------
+# src             |        |          |         | 
+#  domino.js      | 100.00 |    96.88 |  100.00 | 
+# test            |        |          |         | 
+#  domino.test.js | 100.00 |    98.39 |  100.00 | 
+# ----------------------------------------------------------------
+# all files       | 100.00 |    97.62 |  100.00 | 
+# ----------------------------------------------------------------
+# end of coverage report
