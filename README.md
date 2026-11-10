@@ -2,8 +2,7 @@
 
 **Colaborador:** Thiago Gimenes.
 
-**Identificação acadêmica:** preencher RA e turma antes de publicar. Se houver dupla, incluir o nome e o RA do segundo integrante e contribuições reais de ambos.
-
+**Identificação acadêmica:** NOME: Thiago Gimenes Santos. RA:24016862-2. TURMA: ESOFT-6S-A.
 ## Especificação do desafio
 
 Base: [desafios da disciplina](https://github.com/JoaoChoma/teste_software_2026/blob/main/desafios.md). Implementação e testes em JavaScript, conforme solicitado. Este projeto é independente e deve ser publicado em um repositório chamado **desafio_teste_domino**.
